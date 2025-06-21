@@ -22,7 +22,6 @@ function setupSocket(io) {
       
     });
 
-    // عند disconnect
     socket.on('disconnect', () => {
       console.log('User disconnected');
     });
